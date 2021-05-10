@@ -59,11 +59,11 @@ Total number of items: 48
 
 
 '''
-count = {}
+counter = {}
 
 for character in message.lower():
-    count.setdefault(character,0)
-    count[character] = count[character] + 1
+    counter.setdefault(character,0)
+    counter[character] = counter[character] + 1
     
-for key, value in sorted(count.items(), key = itemgetter(1), reverse = True):
+for key, value in sorted(counter.items(), key = itemgetter(1), reverse = True):
     print(key,value)
