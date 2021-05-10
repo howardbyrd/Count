@@ -15,9 +15,9 @@ Inventory:
 42 gold coin
 1 rope
 6 torch
-4 dagger
+5 dagger
 
-Total number of items: 65
+Total number of items: 66
 Hint: You can use a for loop to loop through all the keys in a dictionary.
 
 
@@ -56,7 +56,7 @@ Inventory:
 1 ruby
 4 dagger
 
-Total number of items: 51
+Total number of items: 52
 
 
 '''
