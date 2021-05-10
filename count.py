@@ -11,17 +11,18 @@ Write a function named displayInventory() that would take any possible “invent
 
 
 Inventory:
-200 arrow
+12 arrow
 42 gold coin
 1 rope
 6 torch
 4 dagger
-Total number of items: 62
+
+Total number of items: 65
 Hint: You can use a for loop to loop through all the keys in a dictionary.
 
 
 # inventory.py
-stuff = {'rope': 1, 'torch': 6, 'gold coin': 42, 'dagger': 4, 'arrow': 200}
+stuff = {'rope': 1, 'torch': 6, 'gold coin': 42, 'dagger': 4, 'arrow': 12}
 
 def displayInventory(inventory):
     print("Inventory:")
@@ -53,17 +54,17 @@ Inventory:
 45 gold coin
 1 rope
 1 ruby
-1 dagger
+4 dagger
 
-Total number of items: 48
+Total number of items: 51
 
 
 '''
-counter = {}
+count = {}
 
 for character in message.lower():
-    counter.setdefault(character,0)
-    counter[character] = counter[character] + 1
+    count.setdefault(character,0)
+    count[character] = count[character] + 1
     
-for key, value in sorted(counter.items(), key = itemgetter(1), reverse = True):
+for key, value in sorted(count.items(), key = itemgetter(1), reverse = True):
     print(key,value)
