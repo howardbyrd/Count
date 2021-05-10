@@ -15,7 +15,7 @@ Inventory:
 42 gold coin
 1 rope
 6 torch
-1 dagger
+4 daggers
 Total number of items: 62
 Hint: You can use a for loop to loop through all the keys in a dictionary.
 
